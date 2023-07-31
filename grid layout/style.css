@@ -1,0 +1,194 @@
+    @font-face {
+        font-family: 'spartanBold';
+        src: url("spartan-cufonfonts/Spartan-Bold.ttf");
+    }
+
+    @font-face {
+        font-family: 'spartanReg';
+        src: url("spartan-cufonfonts/Spartan-Regular.ttf");
+    }
+    html{
+
+        background-image: url(images/Path.svg), url(images/Path\ Copy\ 5\ \(1\).svg);
+        background-position-x: right, left;
+        background-size: 60% 100%, auto ;
+        background-repeat: no-repeat, no-repeat;
+        
+    }
+
+
+    * {
+        height: auto;
+        font-family: 'spartanReg';
+        
+
+    }
+
+    body {
+        margin: 8% 
+    
+    }
+
+    h1 {
+        font-family: 'spartanBold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        margin-left: 20px;
+        line-height: 48px;
+        letter-spacing: -1.71429px;
+        color: #512051;
+    }
+
+
+
+    .firstRow p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 20px;
+        letter-spacing: -0.5px;
+        color: #927B91;
+    }
+
+
+    #e,#e2,#e1{
+        display: flex;
+        background: #F7F2F7;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        height: 56px;
+        width: 100%;
+        align-items: center;
+        margin-left: 10px;
+        
+    }
+
+    #e1{
+        margin-left: 48px;
+    }
+
+    #e2{
+        margin-left: 95px;
+    }
+
+    #f{
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    #g{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-top: 20px;
+    
+    }
+    #j1,#j2,#j3{
+        background: #512051;
+        border-radius: 8px;
+        height: 235px;
+        height: 100%;
+    }
+
+    #j2{
+        margin-top: 16px;
+    }
+
+    #j3{
+        margin-top: 32px;
+    }
+
+    .secondRow  p{
+        margin: 32px;
+        margin-top: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: -0.232143px;
+        color: #FFFFFF;
+    }
+
+    .secondRow h4{
+        font-family: 'spartanBold' ;
+        margin-bottom: 5px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+
+    #g p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        color: #EE69A4;
+        margin: 0px;
+    }
+
+
+
+    .firstRow {
+        display: grid;
+        grid-template-columns: 40% 100%;
+        gap: 12%;
+        width: 100%;
+
+        @media only screen and (max-width: 1280px){
+            grid-template-columns: 100%;
+        }
+        
+    }
+    .secondRow{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+        gap: 2rem;
+        
+    }
+    .writing{
+        width: 100%;
+    }
+
+    .content {
+        display: grid;
+        gap: 5%;
+        grid-template-rows: auto auto;
+        width: 100%;
+
+    }
+
+    .yellow-color{
+        color: #EF9546;;
+        margin: 20px 4px;
+        width: 8%;
+    }
+
+    .reviewStar p {
+        font-family: 'spartanBold';
+        color:  rgba(81, 32, 81, 1);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .reviewStar {
+        padding-top: 50px;
+        margin-left: 40px;
+        width: 29rem;
+    }
+
+
+
+    @media only screen and (max-width: 1280px){
+        .firstr{
+            display: inline-grid;
+            
+    }
+    }
